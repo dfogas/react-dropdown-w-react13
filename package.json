@@ -1,0 +1,46 @@
+{
+  "author": {
+    "email": "d.fogas@email.cz",
+    "name": "David Fogas",
+    "url": "http://fogas.xyz"
+  },
+  "dependencies": {
+    "classnames": "^1.2.0",
+    "react": "^0.13.1"
+  },
+  "description": "React dropdown component adjusted to be usable w React version 13",
+  "devDependencies": {
+    "babel": "^4.7.16",
+    "watchify": "^2.6.0"
+  },
+  "directories": {},
+  "installable": true,
+  "keywords": [
+    "component",
+    "dropdown",
+    "react-v13",
+    "react-component",
+    "select"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "maintainers": [
+    {
+      "name": "d.fogas",
+      "email": "d.fogas@email.cz"
+    }
+  ],
+  "name": "react-dropdown-w-react13",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react": ">=0.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dfogas/react-dropdown-w-react13"
+  },
+  "scripts": {
+    "build": "babel index.js > dist/index.js"
+  },
+  "version": "1.0.0"
+}
